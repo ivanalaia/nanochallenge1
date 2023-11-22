@@ -8,15 +8,15 @@
 import SwiftUI
 import SwiftData
 
-
+@Model
 class NoteModel : Identifiable{
-    var id=UUID()
-    var title: String
+ 
+    var id: String
     var text: String
     var noteDate: Date
-    init(id: UUID = UUID(), title: String, text: String, noteDate: Date) {
-        self.id = id
-        self.title = title
+    
+    init(text: String, noteDate: Date) {
+        self.id = UUID().uuidString
         self.text = text
         self.noteDate = noteDate
     }

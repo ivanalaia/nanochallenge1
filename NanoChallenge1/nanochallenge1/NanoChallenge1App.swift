@@ -15,5 +15,6 @@ struct NanoChallenge1App: App {
             ContentView()
             
         }
+        .modelContainer(for: NoteModel.self)
     }
 }

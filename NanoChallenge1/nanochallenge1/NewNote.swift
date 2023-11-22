@@ -9,25 +9,23 @@ import SwiftUI
 import SwiftData
 
 struct NewNoteView: View {
-    var note: NoteModel
-    @State private var noteText: String = ""
-    @ObservedObject var noteViewModel: NoteViewModel
+    @Environment(\.modelContext) private var context
+    @Bindable var note: NoteModel
     
     
     var body: some View {
         VStack {
-            if let noteToUpdate = $noteViewModel.notesArray.first(where: {$0.id == note.id})?.text{
-                TextEditor(text: noteToUpdate)
+            TextEditor(text: $note.text)
                     .frame(minHeight: 300)
                     .padding()
-            }
             Spacer()
+        }.onDisappear {
+            addNote()
         }
         .navigationBarTitle("New Note", displayMode: .inline)
-        .navigationBarItems(trailing: Button("Fine") {
-            let newNote = NoteModel(title: "Titolo", text: "", noteDate: Date())
-            self.noteViewModel.addNote(newNote: newNote)
-        })
+    }
+    private func addNote() {
+        context.insert(note)
     }
 }
 

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A57084B2B075B820068E6BE /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A57084A2B075B820068E6BE /* NoteViewModel.swift */; };
 		7A5DF8612B04DF0B00B89F14 /* NewNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5DF8602B04DF0B00B89F14 /* NewNote.swift */; };
 		7AB4FB072B03DE4B003C6254 /* NanoChallenge1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB4FB062B03DE4B003C6254 /* NanoChallenge1App.swift */; };
 		7AB4FB092B03DE4B003C6254 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB4FB082B03DE4B003C6254 /* ContentView.swift */; };
@@ -17,7 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7A57084A2B075B820068E6BE /* NoteViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
 		7A5DF8602B04DF0B00B89F14 /* NewNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNote.swift; sourceTree = "<group>"; };
 		7AB4FB032B03DE4B003C6254 /* NanoChallenge1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoChallenge1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AB4FB062B03DE4B003C6254 /* NanoChallenge1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoChallenge1App.swift; sourceTree = "<group>"; };
@@ -61,7 +59,6 @@
 				7AB4FB082B03DE4B003C6254 /* ContentView.swift */,
 				7A5DF8602B04DF0B00B89F14 /* NewNote.swift */,
 				7AB4FB142B03E83C003C6254 /* NoteModel.swift */,
-				7A57084A2B075B820068E6BE /* NoteViewModel.swift */,
 				7AB4FB0A2B03DE4C003C6254 /* Assets.xcassets */,
 				7AB4FB0C2B03DE4C003C6254 /* Preview Content */,
 			);
@@ -111,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7AB4FAFE2B03DE4B003C6254 /* Build configuration list for PBXProject "NanoChallenge1" */;
+			buildConfigurationList = 7AB4FAFE2B03DE4B003C6254 /* Build configuration list for PBXProject "nanochallenge1" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,7 +143,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A57084B2B075B820068E6BE /* NoteViewModel.swift in Sources */,
 				7AB4FB092B03DE4B003C6254 /* ContentView.swift in Sources */,
 				7AB4FB152B03E83C003C6254 /* NoteModel.swift in Sources */,
 				7A5DF8612B04DF0B00B89F14 /* NewNote.swift in Sources */,
@@ -292,6 +288,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,6 +318,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -337,7 +335,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7AB4FAFE2B03DE4B003C6254 /* Build configuration list for PBXProject "NanoChallenge1" */ = {
+		7AB4FAFE2B03DE4B003C6254 /* Build configuration list for PBXProject "nanochallenge1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AB4FB0F2B03DE4C003C6254 /* Debug */,
